@@ -27,5 +27,12 @@ business process and supply chains.
 
 we bring that data from the source using Kinesis stream data and put that data on Kinesis Firehose after that, we will deliver that data onto Amazon s3 and after that process that data and crawl that data to build a glue catalog and analyze that data using Amazon Athena using SQL without complex installation or setup and visualize that data using Amazon quicksight.
 
+<h3 align="left">Technology Used</h3>
+
+1. AWS Kinesis
+2. AWS S3
+3. AWS Glue and Glue Data Catalog
+4. AWS Athena
+5. AWS Quicksight
 
 
