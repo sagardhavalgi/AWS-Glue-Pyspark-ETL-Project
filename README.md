@@ -16,13 +16,14 @@ business process and supply chains.
 <h3 align="left">Solutions</h3>
 
 1. Hence, We decided to migrate its applications from an on-premises infrastructure to the AWS Cloud environment with low cost and scale-up.
-2. Amazon Kinesis is used for data integration, and the kinesis data stream is used to build custom applications that make it easy to process and analyze streaming data in real time and Kinesis firehouse used to deliver data to AWS destinations.
+2. Amazon Kinesis is used for data integration, the Kinesis data stream is used to build custom applications that make it easy to process and analyze streaming data in real time, and the Kinesis Firehouse is used to deliver data to AWS destinations.
 3. Amazon S3 (Simple Storage Service) provides the Data lake with vast and stores about 5GB of raw data daily and securely, transfers data.
 4. Amazon Glue was used to perform the ETL Job and run Crawler to scan various data stores and automatically infer schemas and populate the AWS Glue Data Catalog.
 5. Amazon Athena provides a serverless data warehouse and interactive query service that makes it easy to analyze data using SQL.
 6. Create a serverless dashboard in minutes via Amazon Quicksights for business insights.
 
 <h3 align="left">Architecture</h3>
+<img src="https://github.com/sagardhavalgi/Real-time-data-engineering-project/blob/main/Project_Archi.PNG" alt="descriptive text">
 
 we bring that data from the source using Kinesis stream data and put that data on Kinesis Firehose after that, we will deliver that data onto Amazon s3 and after that process that data and crawl that data to build a glue catalog and analyze that data using Amazon Athena using SQL without complex installation or setup and visualize that data using Amazon quicksight.
 
