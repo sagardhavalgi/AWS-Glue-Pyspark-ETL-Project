@@ -20,7 +20,7 @@ business process and supply chains.
 3. Amazon S3 (Simple Storage Service) provides the Data lake with vast and stores about 5GB of raw data daily and securely, transfers data.
 4. Amazon Glue was used to perform the ETL Job and run Crawler to scan various data stores and automatically infer schemas and populate the AWS Glue Data Catalog.
 5. Amazon Athena provides a serverless data warehouse and interactive query service that makes it easy to analyze data using SQL.
-6. Create a serverless dashboard in minutes via Amazon Quicksights for business insights.
+6. Serverless dashboard in minutes via Amazon Quicksights for business insights.
 
 <h3 align="left">Architecture</h3>
 <img src="https://github.com/sagardhavalgi/Real-time-data-engineering-project/blob/main/Project_Archi.PNG" alt="descriptive text">
