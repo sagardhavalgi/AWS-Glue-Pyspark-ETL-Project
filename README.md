@@ -23,7 +23,7 @@ business process and supply chains.
 6. Serverless dashboard in minutes via Amazon Quicksights for business insights.
 
 <h3 align="left">Architecture</h3>
-<img src="https://github.com/sagardhavalgi/Real-time-data-engineering-project/blob/main/Project_Archi.PNG" alt="descriptive text">
+<img src="https://github.com/sagardhavalgi/Real-time-data-engineering-project/blob/main/Project_Archi.PNG" class="img-responsive" alt=""> </div>
 
 we bring that data from the source using Kinesis stream data and put that data on Kinesis Firehose after that, we will deliver that data onto Amazon s3 and after that process that data and crawl that data to build a glue catalog and analyze that data using Amazon Athena using SQL without complex installation or setup and visualize that data using Amazon quicksight.
 
