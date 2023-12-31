@@ -37,3 +37,4 @@ we bring that data from the source using Kinesis stream data and put that data o
 5. AWS Quicksight
 
 
+Hope you had like this article. 😍😍 Thank you
